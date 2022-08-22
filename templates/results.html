@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" href={{url_for('static', filename="style.css")}}>
+</head>
+<body>
+    <div id = "results">
+    <a class = 'main_nav' href="{{ url_for('home') }}" >SurpriseMe</a>
+    <h1 class = 'header'> what'll it be? </h1></br> 
+    {% for k1, k2 in data.items() %}
+    <div class = results_container>
+        <h3 class = results_container_head>{{k1|title}}</h3>
+        {% for j,k in k2.items() %} 
+            {% if k%} 
+                <li class = bullets><b>{{j|lower}}:</b>  <i>{{k}}</i></li>
+            {%else%}          
+                {%set k = "could not load data" %}                        
+                <li class = bullets><b>{{j|lower}}:</b>  <i>{{k}}</i></li>
+            {% endif %}
+        {% endfor %}
+    </div>
+    {% endfor %}
+</div>
+</body>
+</html>

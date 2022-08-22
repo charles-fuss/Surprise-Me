@@ -1,0 +1,80 @@
+{
+    "Boston": {
+        "Address": null,
+        "Hours": null,
+        "Phone": null,
+        "Rating": null
+    },
+    "Fish Market Sushi Bar": {
+        "Address": "170 Brighton Ave, Allston, MA 02134",
+        "Hours": "Closed",
+        "Phone": "(617) 783-1268",
+        "Rating": "4.2"
+    },
+    "Fugakyu Japanese Cuisine": {
+        "Address": "1280 Beacon St, Brookline, MA 02446",
+        "Hours": null,
+        "Phone": "(617) 738-1268",
+        "Rating": "4.2"
+    },
+    "Futago Udon": {
+        "Address": "508-512 Park Dr, Boston, MA 02115",
+        "Hours": "Open \u22c5 Closes 8PM",
+        "Phone": "(617) 505-6157",
+        "Rating": "4.9"
+    },
+    "Genki Ya - Brookline": {
+        "Address": "398 Harvard St, Brookline, MA 02446",
+        "Hours": "02134",
+        "Phone": "(617) 277-3100",
+        "Rating": "8.6/10"
+    },
+    "Izakaya Ittoku": {
+        "Address": "1815 Massachusetts Ave, Cambridge, MA 02140",
+        "Hours": "Open \u22c5 Closes 10PM",
+        "Phone": "(617) 608-3630",
+        "Rating": "4.0"
+    },
+    "Japanese": {
+        "Address": null,
+        "Hours": null,
+        "Phone": null,
+        "Rating": null
+    },
+    "Nagomi Izakaya": {
+        "Address": "636 Beacon St Ste A, Boston, MA 02215",
+        "Hours": "Open \u22c5 Closes 10PM",
+        "Phone": "(617) 267-8888",
+        "Rating": "4.8"
+    },
+    "Omori Izakaya Brookline": {
+        "Address": "195 Washington St, Brookline, MA 02445",
+        "Hours": "Open \u22c5 Closes 9:45PM",
+        "Phone": "(617) 505-5924",
+        "Rating": "4.3"
+    },
+    "Oppa Sushi": {
+        "Address": "185 Harvard Ave, Allston, MA 02134",
+        "Hours": "Open \u22c5 Closes 9:45PM",
+        "Phone": "(617) 202-3808",
+        "Rating": "4.5"
+    },
+    "Restaurants": {
+        "Address": null,
+        "Hours": null,
+        "Phone": null,
+        "Rating": "4.0"
+    },
+    "Sakana": {
+        "Address": "983 Massachusetts Ave, Cambridge, MA 02138",
+        "Hours": "Open \u22c5 Closes 9PM",
+        "Phone": "(617) 714-4646",
+        "Rating": "4.9"
+    },
+    "Umami Omakase": {
+        "Address": "2372 Massachusetts Ave, Cambridge, MA 02140",
+        "Hours": "Open \u22c5 Closes 10PM",
+        "Phone": "(617) 868-2121",
+        "Rating": "5.0"
+    }
+}

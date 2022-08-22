@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" href={{url_for('static', filename="style.css")}}>
+    <script type = "text/javascript" href={{url_for('static', filename="script.js")}}></script>
+</head>
+<body>
+    <div id = "questionnaire">
+    <h1 class = form_title>Questionnaire </h1>
+    <a class = 'main_nav' href="{{ url_for('home') }}" >SurpriseMe</a>
+    {% block content %}
+    {% if zip == 'invalid_zip' %}
+        <h1>Please enter a valid zip code.</h1>
+    {% endif %}
+    <form action = "#" class = "main" method = 'post'>
+        <p>What's your zip code? <input type = "text" class = "txt_input" name = "zip" placeholder="your 5 digit zip code"> </p>
+        <p>What type of food are you looking for? <input type = "text" class = "txt_input" name = "type" placeholder="mexican, irish, bar"> </p>
+        <p>Are you vegetarian?<input type = "checkbox" name = "check" value = '1'></p>
+        <p>Are you open to picking up your food?<input type = "checkbox" name = "check" value = "2"></p>
+        <p>Are you going with kids?<input type = "checkbox" name = "check" value = '3'></p>
+        <p>What's your price range?<input type = "radio" name = "price" value = '4'>Cheap<input type = "radio" name = "price" value = '5'>Medium<input type = "radio" name = "price" value = '6'>Expensive</p>
+        <p><input type = "submit" class = "btn_submit" name = "sb"></p>
+    </form>
+
+
+    {% endblock %}
+</div>
+</body>
+</html>

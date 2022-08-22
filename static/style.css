@@ -1,0 +1,183 @@
+/*install fonts below*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;700;900&family=League+Spartan:wght@300;400;800&display=swap');
+
+
+@keyframes focusForm{
+    from{
+        background-color: white;
+        border:none;
+    }
+    to{
+        background-color: #ebebeb;
+        border-bottom: 1px solid black;
+    }
+}
+
+
+@keyframes createBox {
+    from {
+      transform: scale(1);
+      opacity: 90%;
+    }
+    to {
+      transform: scale(1.05);
+      opacity: 100%;
+    }
+  }
+
+  @keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+  }
+
+  /* make font fat as fuck like logo-y, no hover effect needed
+     could also make it smaller and stuck to top left, try both...
+  */
+
+#index{
+    animation: fadeIn 2s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+#questionnaire{
+    animation: fadeIn 1s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+#results{
+    animation: fadeIn 1s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+a.main_nav{
+    position: absolute;
+    left: 30rem;
+    color: white;
+    font-size: 5ch;
+    text-decoration: none;
+}
+
+h1.title{
+    position: relative;
+    text-align: center;
+    top:15rem;
+    color:white;
+}
+
+a.enterapp{
+    position: relative;
+    text-align: center;
+    left:36.75rem;
+    top:15rem;
+    color:white;
+    text-decoration: none;
+}
+
+a.enterapp:hover{
+    transition: color gray 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+div.results_container{
+    top: 30%;
+    overflow: hidden;
+    font-family: 'League Spartan', sans-serif;
+    border-radius: 15px;
+    background-color: #AAF0C1;
+    color: black;
+    position: relative;
+    left: 35rem;
+    top:-2em;
+    width: 70%;
+    max-width: 45ch;
+    padding: 0rem 1rem 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 10px 6px 10px -1px rgba(0, 0, 0, 0.3), inset 0 0 0 1px rgba(0, 0, 0, 0.15);
+    line-height: 2ch;
+}
+
+
+div.results_container:hover{
+    animation: createBox .4s cubic-bezier(0,1.5,1,1.5);
+}
+
+h3.results_container_head{
+    text-align: center;    
+}
+
+
+h1.header, p.food_scroll{
+    font-size: 3rem;
+    color: white;
+    position: sticky;
+    top: 17.5rem;
+    margin-left: 5rem;
+    font-family: 'League Spartan', sans-serif;
+}
+
+p.food_scroll{
+    font-size: 2.5ch;
+    margin-top: -50px;
+    position: relative;
+    
+}
+
+form.main, h1.form_title{
+    position: relative;
+    text-align: center;
+    top: 10rem;
+    margin-bottom: 2rem;
+    color:white;
+}
+
+
+
+input.txt_input{
+    border: none;
+    background-color: none;
+    font-weight: bold;
+    width:200px;
+    padding:5px;
+    border-radius: 30px;
+}
+
+input.txt_input:focus{
+    animation: focusForm ease-in;
+    outline: none;
+    color: black;
+}
+
+.container{
+    border: .2px solid black;
+    border-radius: 50%;
+}
+
+
+
+
+input.btn_submit{
+    padding: .5rem 2rem;
+    margin-top: .5rem;
+    background:#ebebeb; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: lighter;
+}
+
+input.btn_submit:hover{
+    animation: background-color black
+}
+
+body{
+    background-color: #9893DA;
+    font-family: 'League Spartan', sans-serif;
+    box-sizing:border-box;
+}
+
+ul,li{
+    list-style: none;
+}
